@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<cabeza>
+ <title>Problema</title>
+ <meta conjunto de caracteres="UTF-8">
+<estilo>
+ h1 {color:#ff0000;color de fondo:#ffff00}
+</estilo>
+</cabeza>
+<cuerpo>
+<h1>Primer título</h1>
+<h1>Segundo título</h1>
+</cuerpo>
+</html>
