@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<cabeza>
+ <title>Problema</title>
+ <meta conjunto de caracteres="UTF-8">
+<estilo>
+h1,h2,h3,h4,h5,h6 {
+ familia de fuentes:Verdana;
+}
+h1 {
+ tamaño de fuente:40px;
+}
+h2 {
+ tamaño de fuente:30px;
+}
+h3 {
+ tamaño de fuente:25px;
+}
+h4 {
+ tamaño de fuente:20px;
+}
+h5 {
+ tamaño de fuente:15px;
+}
+h6 {
+ tamaño de fuente:10px;
+}
+</estilo>
+</cabeza>
+<cuerpo>
+<h1>Título de nivel 1</h1>
+<h2>Título de nivel 2</h2>
+<h3>Título de nivel 3</h3>
+<h4>Título de nivel 4</h4>
+<h5>Título de nivel 5</h5>
+<h6>Título de nivel 6</h6>
+</cuerpo>
+</html>
