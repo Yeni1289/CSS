@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Problema</title>
+ <meta charset="UTF-8">
+ <link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+<body>
+<h1 class="resaltado">Titulo de nivel 1</h1>
+<p>
+Este párrafo muestra el resultado de aplicar la clase .resaltado en la última
+<span class="resaltado">palabra.</span>
+</p>
+</body>
+</html>
+
+<--- La hoja de estilo externa (estilos.css) es: --->
+
+body {
+ background-color:#eeeeee;
+}
+.resaltado{
+ color:#000000;
+ background-color:#ffff00;
+ font-style:italic;
+}
