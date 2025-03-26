@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Problema</title>
+ <meta charset="UTF-8">
+ <link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+<body>
+<h1 class="titulopagina">El blog del pensador</h1>
+</body>
+</html>
+--- > y el archivo de estilos: <-----
+.titulopagina {
+ background-color:#ffffcc;
+ text-align:center;
+ font-family:verdana;
+ font-size:40px;
+ border-top-width:1px;
+ border-right-width:3px;
+ border-bottom-width:3px;
+ border-left-width:1px;
+ border-top-style:dotted;
+ border-right-style:solid;
+ border-bottom-style:solid;
+ border-left-style:dotted;
+ border-top-color:#ffaa00;
+ border-right-color:#ff0000;
+ border-bottom-color:#ff0000;
+ border-left-color:#ffaa00;
+}
