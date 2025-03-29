@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Problema</title>
+ <meta charset="UTF-8">
+ <link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+<body>
+<ul class="vacio">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="circulorelleno">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="circulovacio">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="cuadrado">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="decimal">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="romanominuscula">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="romanomayuscula">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="letrasminusculas">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+<ul class="letrasmayusculas">
+ <li>Brasil</li>
+ <li>Uruguay</li>
+ <li>Argentina</li>
+</ul>
+</body>
+</html>
+-------> Luego la hoja de estilo es:  <-------
+.vacio{
+ list-style-type:none;
+}
+.circulorelleno{
+ list-style-type:disc;
+}
+.decimal{
+ list-style-type:decimal;
+}
+.romanominuscula{
+ list-style-type:lower-roman;
+}
+.romanomayuscula{
+ list-style-type:upper-roman;
+}
+.circulovacio{
+ list-style-type:circle;
+}
+.cuadrado{
+ list-style-type:square;
+}
+.letrasminusculas{
+ list-style-type:lower-alpha;
+}
+.letrasmayusculas{
+ list-style-type:upper-alpha;
+}
