@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<cabeza>
+ <title>Problema</title>
+ <meta conjunto de caracteres="UTF-8">
+ <link rel="Hoja de estilos" href="estilos.css" type="text/css">
+</cabeza>
+<cuerpo>
+</cuerpo>
+</html>
+----->  La hoja de estilo queda:  <-----
+cuerpo {
+ imagen de fondo:url(fondo.jpg);
+}
