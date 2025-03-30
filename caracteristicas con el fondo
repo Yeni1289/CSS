@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Problema</title>
+ <meta charset="UTF-8">
+ <link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+<body>
+<p>Hola Mundo</p>
+</body>
+</html>
+Luego el archivo de estilos:
+p {
+ font:bold italic 25px verdana;
+}
