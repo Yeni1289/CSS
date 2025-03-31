@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<cabeza>
+ <title>Problema</title>
+ <meta conjunto de caracteres="UTF-8">
+ <link rel="Hoja de estilos" href="estilos.css" type="text/css">
+</cabeza>
+<cuerpo>
+<a href="http://www.google.com">Google</a>
+<a href="http://www.yahoo.com">Yahoo</a>
+<a href="http://www.bing.com">Bing</a>
+</cuerpo>
+</html>
+----> La hoja de estilo es: <-----
+a:enlace{
+ color de fondo:#00ff00;
+ color:#ff0000;
+}
+a:visitado{
+ color de fondo:#000000;
+ color:#ffffff;
+}
+a:flotar{
+ color de fondo:#ff00ff;
+ color:#fffff;
+}
+a:activo{
+ color de fondo:#ff0000;
+ col
