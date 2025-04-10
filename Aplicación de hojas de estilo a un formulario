@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Problema</title>
+ <meta charset="UTF-8">
+ <link rel="StyleSheet" href="estilos.css" type="text/css">
+</head>
+<body>
+<div id="contenedorform">
+<form method="post" action="#">
+ <label>Ingrese nombre:</label>
+ <input type="text" name="nombre" size="30">
+ <br>
+ <label>Ingrese mail:</label>
+ <input type="text" name="mail" size="45">
+ <br>
+ <label>Comentarios:</label>
+ <textarea name="comentarios" cols="30" rows="5"></textarea>
+ <br>
+ <input class="botonsubmit" type="submit" value="confirmar">
+</form>
+</div>
+</body>
+</html>
+La hoja de estilo que se aplica es:
+#contenedorform {
+ width:500px;
+ margin-left:20px;
+ margin-top:10px;
+ background-color:#ffe;
+ border:1px solid #CCC;
+ padding:10px 0 10px 0;
+}
+#contenedorform form label {
+ width:120px;
+ float:left;
+ font-family:verdana;
+ font-size:14px;
+}
+.botonsubmit {
+ color:#f00;
+ background-color:#bbb;
+ border: 1px solid #fff;
+}
